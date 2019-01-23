@@ -1,0 +1,161 @@
+/* line 1, ../sass/home.scss */
+body {
+  margin: 0;
+}
+
+/* line 5, ../sass/home.scss */
+#nav {
+  margin: 0 auto;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  padding: 0;
+  height: 4em;
+  background-color: #888888;
+  text-align: center;
+  transition: top 0.5s ease;
+}
+/* line 15, ../sass/home.scss */
+#nav ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 75%;
+}
+/* line 19, ../sass/home.scss */
+#nav ul li {
+  margin: 0;
+  float: left;
+  height: 4em;
+  line-height: 4em;
+  font-family: 'Verdana', 'Helvetica', sans-serif;
+  font-weight: 600;
+}
+/* line 26, ../sass/home.scss */
+#nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0 1.25em;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* line 39, ../sass/home.scss */
+.man_mtn {
+  background-image: url(../img/man_mtn.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 35em;
+}
+/* line 46, ../sass/home.scss */
+.man_mtn h1 {
+  font-size: 4em;
+  font-family: 'Tahoma', sans-serif;
+  margin: 0;
+  padding: 1em 0 0 3em;
+  width: 25%;
+}
+
+/* line 55, ../sass/home.scss */
+.mtn {
+  background-image: url(../img/mtn.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 35em;
+}
+/* line 62, ../sass/home.scss */
+.mtn h1 {
+  font-size: 4em;
+  font-family: 'Tahoma', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 4em 0 0 3em;
+  width: 50%;
+}
+
+/* line 72, ../sass/home.scss */
+.wmn-bk {
+  background-image: url(../img/wmn_bk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 35em;
+}
+/* line 79, ../sass/home.scss */
+.wmn-bk h1 {
+  font-size: 4em;
+  font-family: 'Tahoma', sans-serif;
+  color: #000;
+  margin: 0;
+  padding: .5em 0 0 .5em;
+  width: 85%;
+}
+
+/* line 89, ../sass/home.scss */
+.skyline {
+  background-image: url(../img/skyline.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 35em;
+}
+/* line 96, ../sass/home.scss */
+.skyline h1 {
+  font-size: 4em;
+  font-family: 'Tahoma', sans-serif;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  padding: 4em 0 0 0;
+  width: 100%;
+}
+
+/* line 109, ../sass/home.scss */
+.info {
+  background-color: #000;
+  width: 100%;
+}
+/* line 112, ../sass/home.scss */
+.info p {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  width: 40%;
+  padding: 4em 0;
+}
+/* line 120, ../sass/home.scss */
+.info h1 {
+  font-size: 4em;
+  font-family: 'Tahoma', sans-serif;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0 2em 0;
+  width: 100%;
+}
+/* line 129, ../sass/home.scss */
+.info .btn {
+  background: transparent;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 1em;
+  margin: 0 auto;
+  width: 25%;
+  padding: .25em;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Helvetica', sans-serif;
+  transition: background .5s ease, color .5s ease;
+  cursor: pointer;
+}
+/* line 142, ../sass/home.scss */
+.info .btn:hover {
+  background: #fff;
+  color: #000;
+}
