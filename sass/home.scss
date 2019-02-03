@@ -12,20 +12,18 @@ footer {
     left: 0;
     font-family: 'Arial', sans-serif;
     text-align: center;
+    @media (max-width: 703px) {
+        height: 10em;
+    }
     p {
-        //position: relative;
         margin: 0;
         padding: 2em .5em 1em .5em;
         display:inline-block;
-        top: 2em;
-        text-align: center;
     }
     a {
-        //position: relative;
         margin: 0;
         padding: 2em .5em 1em .5em;
         display: inline-block;
-        text-align: center;
         text-decoration: none;
         color: #fff;
     }
