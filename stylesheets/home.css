@@ -18,7 +18,7 @@ footer {
 /* line 15, ../sass/home.scss */
 footer p {
   margin: 0;
-  padding: 2em .5em;
+  padding: 2em .5em 1em .5em;
   display: inline-block;
   top: 2em;
   text-align: center;
